@@ -123,6 +123,12 @@ people-manager-ui/
 - Clean and maintainable implementation
 - Smooth animations and transitions
 
+## Design
+
+You can find the design of this application in [Excalidraw](https://excalidraw.com/#room=ac2af8597ce5d4ad1490,6cTmxKceUKwZPq1ZtcY4-w)
+
+![People Manager Diagram](./src/docs/people-manager-diagram.png)
+
 ## 🤝 Contributing
 
 1. Fork the repository
