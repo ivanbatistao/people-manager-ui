@@ -1,6 +1,7 @@
 export const people = [
     {
         "id": 1,
+        "favorite": false,
         "name": "Leanne Graham",
         "lastName": "Graham",
         "firstName": "Leanne",
@@ -29,6 +30,7 @@ export const people = [
         "levelOfHappiness": 85
     },
     {
+        "favorite": false,
         "id": 2,
         "name": "Ervin Howell",
         "lastName": "Howell",
@@ -58,6 +60,7 @@ export const people = [
         "levelOfHappiness": 78
     },
     {
+        "favorite": false,
         "id": 3,
         "name": "Clementine Bauch",
         "lastName": "Bauch",
@@ -87,6 +90,7 @@ export const people = [
         "levelOfHappiness": 92
     },
     {
+        "favorite": false,
         "id": 4,
         "name": "Patricia Lebsack",
         "lastName": "Lebsack",
@@ -116,6 +120,7 @@ export const people = [
         "levelOfHappiness": 70
     },
     {
+        "favorite": false,
         "id": 5,
         "name": "Chelsey Dietrich",
         "lastName": "Dietrich",
@@ -145,6 +150,7 @@ export const people = [
         "levelOfHappiness": 60
     },
     {
+        "favorite": false,
         "id": 6,
         "name": "Mrs. Dennis Schulist",
         "lastName": "Schulist",
@@ -174,6 +180,7 @@ export const people = [
         "levelOfHappiness": 88
     },
     {
+        "favorite": false,
         "id": 7,
         "name": "Kurtis Weissnat",
         "lastName": "Weissnat",
@@ -203,6 +210,7 @@ export const people = [
         "levelOfHappiness": 80
     },
     {
+        "favorite": false,
         "id": 8,
         "name": "Nicholas Runolfsdottir V",
         "lastName": "Runolfsdottir",
@@ -232,6 +240,7 @@ export const people = [
         "levelOfHappiness": 95
     },
     {
+        "favorite": false,
         "id": 9,
         "name": "Glenna Reichert",
         "lastName": "Reichert",
@@ -261,6 +270,7 @@ export const people = [
         "levelOfHappiness": 73
     },
     {
+        "favorite": false,
         "id": 10,
         "name": "Clementina DuBuque",
         "lastName": "DuBuque",

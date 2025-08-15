@@ -6,7 +6,6 @@ import { people } from "@/data/people";
 
 const initialState: Person[] =  people;
 
-
 export const peopleSlice = createSlice({
     name: "people",
     initialState: getLocalStorage(LocalStorageTypes.PEOPLE) ? getLocalStorage(LocalStorageTypes.PEOPLE) : initialState,
