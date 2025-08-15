@@ -1,4 +1,4 @@
-import { Suspense, lazy, useEffect } from "react";
+import { Suspense, lazy } from "react";
 import { Box, Typography, Toolbar, CircularProgress } from "@mui/material";
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { dialogOpenSubject$ } from "../customDialog/subjects";
