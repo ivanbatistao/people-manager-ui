@@ -12,9 +12,7 @@ import { type AppStore } from "@/redux/store";
 import { getLocalStorage } from "@/utilities";
 import { Checkbox } from "@mui/material";
 
-interface PeopleTable {}
-
-const PeopleTable: React.FC<PeopleTable> = ({}) => {
+const PeopleTable: React.FC = () => {
   const [selectedPeople, setSelectedPeople] = useState<Person[]>([]);
   const [paginationModel, setPaginationModel] = useState({
     pageSize: 5,

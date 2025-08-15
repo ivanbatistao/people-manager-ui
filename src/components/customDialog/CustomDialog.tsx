@@ -1,4 +1,4 @@
-import { SubjectManager } from "@/models";
+import { dialogOpenSubject$, dialogCloseSubject$ } from "./subjects";
 import Dialog from "@mui/material/Dialog";
 import { useEffect, useState } from "react";
 import { Subscription } from "rxjs";
@@ -7,8 +7,6 @@ interface Props {
   children: React.ReactNode;
 }
 
-export const dialogOpenSubject$ = new SubjectManager<boolean>();
-export const dialogCloseSubject$ = new SubjectManager<boolean>();
 
 export const CustomDialog = ({ children }: Props) => {
   const [open, setOpen] = useState(false);

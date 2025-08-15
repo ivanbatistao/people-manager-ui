@@ -4,9 +4,7 @@ import { addPeople } from "@/redux/states";
 import { people } from "@/data/people";
 import { PeopleTable } from "@/pages/home/components/peopleTable";
 
-interface HomeContainerProps {}
-
-const HomeContainer: React.FC<HomeContainerProps> = () => {
+const HomeContainer: React.FC = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {

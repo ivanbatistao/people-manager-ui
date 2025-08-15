@@ -7,9 +7,7 @@ import type { people } from "@/data/people";
 import type { Person } from "@/models";
 import { removeFavorite } from "@/redux/states";
 
-interface FavoriteTableProps {}
-
-const FavoriteTable: React.FC<FavoriteTableProps> = ({ }) => {
+const FavoriteTable: React.FC = () => {
   const [paginationModel, setPaginationModel] = useState({
     pageSize: 5,
     page: 0,

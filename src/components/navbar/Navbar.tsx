@@ -5,9 +5,7 @@ import { dialogOpenSubject$ } from "../customDialog/CustomDialog";
 import { CustomDialog } from "../customDialog/CustomDialog";
 import { StyledAppBar, StyledToolbar, StyledIconButton } from './Navbar.styles';
 
-interface NavbarProps {}
-
-const Navbar: React.FC<NavbarProps> = () => {
+const Navbar: React.FC = () => {
   const handleClick = () => {
     dialogOpenSubject$.setSubject = true;
   };
