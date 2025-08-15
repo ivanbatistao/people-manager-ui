@@ -1,7 +1,7 @@
 import { Box, Typography, Toolbar } from "@mui/material";
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { FavoriteTable } from "./favoriteTable";
-import { dialogOpenSubject$ } from "../customDialog/CustomDialog";
+import { dialogOpenSubject$ } from "../customDialog/subjects";
 import { CustomDialog } from "../customDialog/CustomDialog";
 import { StyledAppBar, StyledToolbar, StyledIconButton } from './Navbar.styles';
 
